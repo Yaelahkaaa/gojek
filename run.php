@@ -1,5 +1,4 @@
 <?php
-### Yaelahkaaa Xyz ###
 
 include ("function.php");
 
@@ -80,7 +79,7 @@ function veriflogin($otp, $token)
 	}
 function claim($token)
 	{
-	$data = '{"promo_code":"GOGAMESMIFANS"}';
+	$data = '{"promo_code":"OKTOBERHUT"}';
 	$claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
 	if ($claim['success'] == 1)
 		{
@@ -92,8 +91,8 @@ function claim($token)
 		return false;
 		}
 	}
-echo 'Thx to SGB TEAM\n';
-echo 'Youtube: Yaelahkaaa Xyz\n';
+echo "Thx to SGB TEAM\n";
+echo "Youtube: Yaelahkaaa Xyz\n";
 echo "Choose Login or Register? Login = 1 & Register = 2: ";
 $type = trim(fgets(STDIN));
 if($type == 2){
