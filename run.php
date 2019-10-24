@@ -1,5 +1,5 @@
 <?php
-
+##### COPYRIGHT YAELAHKAAA XYZ #####
 include ("function.php");
 
 function nama()
@@ -79,7 +79,7 @@ function veriflogin($otp, $token)
 	}
 function claim($token)
 	{
-	$data = '{"promo_code":"OKTOBERHUT"}';
+	$data = '{"promo_code":"GOFOODBOBA07"}';
 	$claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
 	if ($claim['success'] == 1)
 		{
