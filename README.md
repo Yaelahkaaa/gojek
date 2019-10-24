@@ -5,4 +5,5 @@ pkg install php<br>
 git clone https://github.com/Yaelahkaaa/gojek.git<br>
 cd gojek<br>
 # Run
-php gojek.php
+php run.php<br>
+Pilih 1 untuk login pilih 2 register
